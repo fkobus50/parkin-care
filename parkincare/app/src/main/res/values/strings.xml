@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">ParkinCare</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">From the Square world,&#10;Hello, %1$s!</string>
+    <string name="tile_label">Example tile</string>
+    <string name="complication_label">Example complication</string>
+    <string name="medicine_channel_name">Przypomnienia o lekach</string>
+    <string name="medicine_alarm_channel_name">Alarmy leków</string>
+    <string name="medicine_alarm_channel_description">Kanał do alarmów leków (pełnoekranowe powiadomienia)</string>
+    <string name="storage_usage">Zapisy w pamięci zegarka zajmują %1$s, wolne miejsce: %2$s</string>
+    <string name="sensor_count">Aktywnych jest %1$d z %2$d sensorów</string>
+    <string name="storage_occupied">Zapisy zajmują: %1$s</string>
+    <string name="free_space">Wolne miejsce: %1$s</string>
+    <string name="server_on_local">Serwer odbierający dane jest %1$s, ale dane zapisywane %2$s</string>
+    <string name="server_on_remote">Serwer odbierający dane jest %1$s, dane zapisywane %2$s</string>
+    <string name="server_off">Serwer odbierający dane jest %1$s, dane zapisywane %2$s</string>
+    <string name="status_on">Włączony</string>
+    <string name="status_off">Wyłączony</string>
+    <string name="storage_watch">na zegarku</string>
+    <string name="storage_server">na serwerze</string>
+    <string name="save_mode_title">Tryb zapisu danych</string>
+    <string name="save_mode_message">Wybierz, gdzie mają być zapisywane dane z sensorów:&#10;&#10;• Zegarku – dane będą zapisywane tylko lokalnie na urządzeniu, nie będą wysyłane na serwer. Po przełączeniu zapisu na serwer zostaną przesłane i usunięte z urządzenia.&#10;• Serwerze – dane będą wysyłane na serwer, a w przypadku braku połączenia tymczasowo zapisane na zegarku i wysłane po odzyskaniu połączenia.</string>
+    <string name="ok">OK</string>
+    <string name="enable_all">Włącz wszystkie</string>
+    <string name="disable_all">Wyłącz wszystkie</string>
+    <string name="permission_title">Potrzebne uprawnienie</string>
+    <string name="permission_message">Aby otrzymywać powiadomienia o lekach, włącz w ustawieniach aplikacji uprawnienie Harmonogramowanie dokładnych alarmów.</string>
+    <string name="go_to_settings">Przejdź do ustawień</string>
+    <string name="cancel">Anuluj</string>
+    <string name="battery_opt_title">Wyłącz optymalizację baterii</string>
+    <string name="battery_opt_message">Aby aplikacja mogła działać w tle i zbierać dane, wyłącz optymalizację baterii dla ParkinCare. Po kliknięciu \'Przejdź do ustawień\':
+1. Wejdź w "Uprawnienia".
+2. Zjedź na sam dół.
+3. Wyłącz opcję "Wstrzymuj aktywność w aplikacji, jeśli jej nie używasz".</string>
+    <string name="no_support_title">Brak wsparcia</string>
+    <string name="no_support_message">Twój system nie obsługuje ekranu ustawień optymalizacji baterii.</string>
+    <string name="no_permission_title">Brak uprawnień</string>
+    <string name="no_permission_message">Aby nagrywać dźwięk, musisz nadać aplikacji uprawnienie do mikrofonu w ustawieniach systemowych.</string>
+    <string name="no_permission_message_simple">Aby nagrywać dźwięk, musisz nadać aplikacji uprawnienie do mikrofonu.</string>
+    <string name="server_unavailable">Serwer jest niedostępny</string>
+    <string name="sensor_count_zero">Aktywnych jest 0 z 0 sensorów</string>
+    <string name="more_info">Więcej informacji ...</string>
+    <string name="storage_usage_placeholder">Zapisy w pamięci zegarka zajmują ... MB</string>
+    <string name="less_info">Mniej informacji</string>
+    <string name="settings">Ustawienia</string>
+    <string name="save_on">Zapisuj na:</string>
+    <string name="help">Pomoc</string>
+    <string name="server_radio">serwerze</string>
+    <string name="server_radio_hint">(jeśli dostępny)</string>
+    <string name="recommended">zalecane</string>
+    <string name="watch_radio">zegarku</string>
+    <string name="choose_sensors">Wybierz, które sensory mają być aktywne:</string>
+    <string name="accelerometer">Akcelerometr</string>
+    <string name="gyroscope">Żyroskop</string>
+    <string name="heart_rate">Tętno</string>
+    <string name="spo2">SpO2</string>
+    <string name="barometer">Barometr</string>
+    <string name="ekg">EKG</string>
+    <string name="light">Natężenie światła</string>
+    <string name="audio">Nagrywanie dźwięku (eksperymentalne)</string>
+    <string name="server_status">Status serwera</string>
+    <string name="server_available">Serwer jest dostępny</string>
+    <string name="sensor_count_label">Aktywne sensory</string>
+    <string name="btn_save_mode_help">Pomoc</string>
+    <string name="radio_save_watch">Zegarku</string>
+    <string name="radio_save_server">Serwerze</string>
+    <string name="save_on_watch">Dane zapisywane na zegarku</string>
+    <string name="save_on_server">Dane zapisywane na serwerze</string>
+    <string name="medicine_alarm_title">Czas na lek</string>
+    <string name="accept_symbol">✓</string>
+    <string name="reject_symbol">✕</string>
+    <string name="current_patient_label">Aktualny pacjent: %1$s</string>
+    <string name="next_medicines_label">Najbliższe leki:</string>
+    <string name="none_placeholder">brak</string>
+    <string name="none_placeholder_medicines">Brak zaplanowanych leków</string>
+    <string name="settings_label">Konfiguracja</string>
+    <string name="today_label">Dzisiaj</string>
+    <string name="tomorrow_label">Jutro</string>
+    <string name="day_after_tomorrow_label">Pojutrze</string>
+    <string name="yesterday_label">Wczoraj</string>
+    <string name="day_before_yesterday_label">Przedwczoraj</string>
+    <string name="medicine_data_warning">Zawsze weryfikuj poprawność danych przed pobraniem leku</string>
+    <string name="low_free_space">"Za mało wolnego miejsca - dane są tracone"</string>
+</resources>
