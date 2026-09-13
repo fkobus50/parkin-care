@@ -22,21 +22,22 @@ The repository is organized into two main directories (monorepo):
 
 ```text
 parkin-care/
-├── parkincare/                 # Wear OS client application (Kotlin / Gradle)
-│   ├── app/                    # Application source code, Compose UI, and background services
-│   │   ├── build.gradle.kts    # Module-level Gradle build configuration
-│   │   └── src/                # Kotlin source files and resources
-│   ├── gradle/                 # Gradle wrapper files
-│   ├── build.gradle.kts        # Root-level build configuration
-│   ├── gradle.properties       # Project-wide Gradle configuration properties
-│   ├── gradlew                 # Gradle wrapper script for Linux/macOS
-│   ├── gradlew.bat             # Gradle wrapper script for Windows
-│   └── settings.gradle.kts     # Project settings and module definitions
-├── parkincarereceiver/         # Python backend application
-│   ├── receiver.py             # Main MQTT receiver script
-│   ├── requirements.txt        # Python dependencies
-├── README.md                   # Project documentation and quick start guide
-└── LICENSE.txt                 # MIT License
+├── src/
+│   ├── parkincare/                 # Wear OS client application (Kotlin / Gradle)
+│   │   ├── app/                    # Application source code, Compose UI, and background services
+│   │   │   ├── build.gradle.kts    # Module-level Gradle build configuration
+│   │   │   └── src/                # Kotlin source files and resources
+│   │   ├── gradle/                 # Gradle wrapper files
+│   │   ├── build.gradle.kts        # Root-level build configuration
+│   │   ├── gradle.properties       # Project-wide Gradle configuration properties
+│   │   ├── gradlew                 # Gradle wrapper script for Linux/macOS
+│   │   ├── gradlew.bat             # Gradle wrapper script for Windows
+│   │   └── settings.gradle.kts     # Project settings and module definitions
+│   └── parkincarereceiver/         # Python backend application
+│       ├── receiver.py             # Main MQTT receiver script
+│       └── requirements.txt        # Python dependencies
+├── README.md                       # Project documentation and quick start guide
+└── LICENSE.txt                     # MIT License
 ```
 
 ### Wear OS Application (`parkincare`)
