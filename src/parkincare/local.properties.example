@@ -1,0 +1,31 @@
+## This file must *NOT* be checked into Version Control Systems,
+# as it contains information specific to your local configuration.
+# Copy this file to 'local.properties' and fill in your own settings.
+
+# Path to the Android SDK on your local machine (adjust for your OS and username)
+# Windows example: sdk.dir=C\:\\Users\\username\\AppData\\Local\\Android\\Sdk
+# Linux/macOS example: sdk.dir=/home/username/Android/Sdk
+sdk.dir=/home/username/Android/Sdk
+
+# MQTT Broker connection details
+mqttServerUri=mqtt.example.com:8883
+mqttTlsEnabled=true
+
+# Relative paths to mTLS certificates/keys located in the app assets
+mqttCaCertPath=assets/ca.crt
+mqttClientCertPath=assets/client.crt
+mqttClientKeyPath=assets/client.key
+
+# Base MQTT topic prefix for telemetry transmission
+mqttTopic=telemetry/sensors
+
+# MQTT authentication credentials (leave empty if using certificate-only auth)
+mqttUsername=demo_user
+mqttPassword=demo_password_here
+
+# Backend API endpoints
+getReminderUrl=https://api.example.com/api/medicinehistory/smartwatch
+sendHistoryUrl=https://api.example.com/api/medicinehistory
+
+# Placeholder JWT access/identification token for patient authorization
+apiToken=YOUR_JWT_API_TOKEN_HERE
