@@ -32,8 +32,10 @@ parkin-care/
 │   │   ├── gradle.properties       # Project-wide Gradle configuration properties
 │   │   ├── gradlew                 # Gradle wrapper script for Linux/macOS
 │   │   ├── gradlew.bat             # Gradle wrapper script for Windows
+│   │   ├── local.properties.example # Template for local Android SDK path, MQTT, and API credentials
 │   │   └── settings.gradle.kts     # Project settings and module definitions
 │   └── parkincarereceiver/         # Python backend application
+│       ├── config.ini.example      # Template for MQTT broker and database settings
 │       ├── receiver.py             # Main MQTT receiver script
 │       └── requirements.txt        # Python dependencies
 ├── README.md                       # Project documentation and quick start guide
