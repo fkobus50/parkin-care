@@ -1,0 +1,18 @@
+[MQTT]
+# MQTT broker host (e.g. localhost, mqtt.example.com)
+BROKER = mqtt.example.com
+PORT = 8883
+
+# Authentication credentials (leave blank if relying solely on mTLS client certificates)
+USERNAME = 
+PASSWORD = 
+
+# Base topic prefix for incoming telemetry data
+TOPIC = telemetry/sensors
+
+[APP]
+# Fallback patient identifier (used only when incoming payload or topic lacks an ID/token)
+PATIENT_ID = DEFAULT_PATIENT_001
+
+# Path to the local SQLite database file
+DB_FILE = database.db
